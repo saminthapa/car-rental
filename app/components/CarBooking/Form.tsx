@@ -14,7 +14,7 @@ const Form = ({car}:any) => {
     pickUpTime:'',
     dropOffDate:'', 
     contactNumber:'',
-    userName: 'samin',
+    userName: '',
     
   })
   useEffect(()=>{
@@ -55,6 +55,11 @@ const Form = ({car}:any) => {
 
   return (
     <div>
+      <div className='flex flex-col w-full mb-5'>
+        <label className='text-gray-400'>Client Name</label>
+        <input type="text" placeholder="Type here" name='userName' onChange={handleChange} className="input input-bordered w-full max-w-lg" />
+      </div>
+
       <div className='flex flex-col w-full mb-5'>
         <label className='text-gray-400'>PickUp Location</label>
         <select className='select select-bordered w-full max-w-lg' name='location'
