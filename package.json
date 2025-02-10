@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.22.11",
     "@clerk/nextjs": "^6.11.1",
     "graphql": "^16.10.0",
     "graphql-request": "^7.1.2",
