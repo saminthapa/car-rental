@@ -37,7 +37,16 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
           <SignedOut>
-            <SignInButton/>
+          <div className="landing-container">
+              <div className="content">
+                <h1 className="landing-title">Welcome to Premium Car Rentals</h1>
+                <p className="landing-description">
+                  Rent your favorite car with just a click!
+                </p>
+                <SignInButton />
+                
+              </div>
+            </div>
           </SignedOut>
           <SignedIn>
             <NavBar/>
