@@ -101,7 +101,7 @@ const Form = ({car}:any) => {
       <div className="model-action">
         <form method='dialog'>
         <button className="btn">Close</button>
-      <button className="btn bg-blue-500 text-white hover:bg-blue-800"
+      <button className="btn bg-[#003c8f] text-white hover:bg-[#002860]"
       onClick={handleSubmit}>Save</button>
         </form>
     </div>

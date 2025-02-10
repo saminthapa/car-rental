@@ -3,7 +3,7 @@ import React from 'react'
 const SearchInput = () => {
   return (
     <div className='mt-5'>
-      <h2 className='text-center text-[20px] text-gray-400 mb-3'>Let's Search what you need</h2>
+      <h2 className='text-center text-[20px] text-gray-400 mb-3'>Discover What You Need Right Here</h2>
     <div className='flex justify-center'>
         <div className='flex bg-gray-100 p-1 px-5 gap-2 rounded-full divide-x'>
         <div className='flex items-center'>
